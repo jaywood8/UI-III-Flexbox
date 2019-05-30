@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	margin: 30px;
 }
 ol, ul {
 	list-style: none;
@@ -64,3 +65,121 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	border: 1px solid gray;
+	margin: 2% 2% 2% 2%; 
+}
+
+header {
+	border: 1%;
+	padding: 1%;
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 2%
+}
+
+header nav {
+	color:rgb(138, 138, 138);
+	font-size: 120%;
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header nav a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+header .logo {
+	justify-content: flex-end;
+	margin-left: 10%;
+}
+
+.headline .services-header-img {
+	display: flex;
+	width: 98%;
+	margin-bottom: 3%;
+}
+
+.hero-image {
+	width: 98%;
+}
+
+.headline {
+	padding: 1.5%;
+	width: 98%;
+	margin-top: .5%;
+	margin-bottom: 1%;
+}
+
+h2 {
+	font-size: 175%;
+	font-weight: bold;
+}
+
+h3 {
+	size: 140%;
+	font-weight: bold;
+}
+
+.services {
+	margin-top: 4%;
+	margin-left: -2%;
+	margin-right: -2%;
+	margin: .5%;
+	display: flex;
+	flex-flow: row wrap; 
+	
+	border-top: 1.5px solid black;
+	border-bottom: 1.5px solid black;
+	margin-bottom: 2.5%;
+
+}
+
+.services .a-service {
+	background-color: rgb(238, 238, 238);
+	display: flex-column;
+	width: 45%;
+	border: 1.5px solid black;
+	margin: 2%;
+	padding: 1.5%;
+} 
+
+button {
+	background-color: white;
+	font-size: 11px;
+	border: 1.5px solid black;
+	width: 38%;
+	border-radius: 6px;
+	padding: 2.5%;
+}
+
+.facts {
+	display: flex;
+	justify-content: space-between;
+}
+
+.facts-text {
+	width: 40%;
+}
+
+.facts-img {
+	width: 50%;
+}
+
+ul {
+	list-style-type: square;
+	margin: 2.5%;
+	line-height: 1.5em;
+  }
+
+footer {
+	margin: 2%; 
+	display: block;
+	text-align: center;
+  }
+
+ 
